@@ -1,73 +1,57 @@
 /*
- First External CSS Stylesheet
+ External CSS Stylesheet
  */
 
 /* Styling for HTML elements */
+
 body {
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
     background: #efeee7;
   }
-  
-  header {
-    background: #333;
-  }
-  
-  h1 {
+
+    /* padding: 0;
+    margin: 0;
     padding: 20px 0;
     margin: 0;
     margin-bottom: 20px;
     font-size: 28px;
     color: #eee;
     text-align: center;
-  }
-  
-  h2 {
     font-size: 24px;
-  }
+    color: #d21034; */
+
   
-  a {
-    color: #d21034;
-  }
-  
-  /* Selecting elements by class */
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
-  
-  /* Selecting elements by ID */
-  #main-bio,
-  #contact-info,
-  #bio-image {
-    float: left;
-  }
-  
-  #figure {
+
+ /*
+ * Fixed Position: Anchors element to the browser
+ */
+
+.box-set {
     position: relative;
+    background: #efeee7;
   }
   
-  #bio-name {
-    position: absolute;
-    top: 150px;
-    left: 30px;
+  .box {
+    position: fixed;
+    background: white;
   }
   
-  #main-bio {
-    width: 70%;
+  /* Box rules: percentages define anchors (i.e. position of each box relative to browser window) */
+  
+  .box-1 {
+    width: 650px;
+    height: 400px;
+    top: 25%;
+    left: 8%;
   }
   
-  #contact-info {
-    width: 30%;
+  .box-2 {
+    width: 500px;
+    height: 400px;
+    top: 25%;
+    right: 8%;
   }
   
-  #bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-  }
+
+  
+
   
