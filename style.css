@@ -8,6 +8,17 @@ body {
     background: #efeee7;
   }
 
+  h3 {
+    /* padding: 20px; */
+    margin: 20px;
+    text-align: centre;
+    color: teal;
+  }
+
+  p {
+    margin: 30px;
+  }
+  
     /* padding: 0;
     margin: 0;
     padding: 20px 0;
@@ -31,6 +42,7 @@ body {
   }
   
   .box {
+    text-align: centre;
     position: fixed;
     background: white;
   }
