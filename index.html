@@ -7,7 +7,12 @@
   <!-- Comment out each stylesheet to get the one you'd like to see -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  
+  <style>
+    .TextWrap {
+      float: left;
+      margin: 10px;
+    }
+  </style>
 
 </head>
 
@@ -55,7 +60,7 @@
   <div class="box-set">
     <figure class="box box-1"><h3>Summary: Latitude vs. X</h3><hr>
           <a target="_blank" href="Resources/assets/images/Fig1.png">
-        <img src="Resources/assets/images/Fig1.png" align="left" alt="Latitude vs Temp" width="250">
+        <img class="TextWrap" src="Resources/assets/images/Fig1.png" float="left" alt="Max Temp" width="250">
       </a>
     <p>The purpose of this project was to analyse how weather changes as you get closer to the equator.
       To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset 
@@ -70,18 +75,18 @@
     </figure>
 
     <!-- second box with clickable visualizations -->
-    <figure class="box box-2"><h3>Vizualizations</h3><hr>
+    <figure class="box box-2"><h3>Visualizations</h3><hr>
       <a target="_blank" href="Resources/assets/images/Fig1.png">
-      <img src="Resources/assets/images/Fig1.png" style="float: left; width: 45%; margin-right: 2%; margin-left: 3%; margin-bottom: 0.5em;"></a>
+      <img src="Resources/assets/images/Fig1.png" style="float: left; width: 45%; margin-right: 2%; margin-left: 3%; margin-bottom: 0.5em;" alt="Max Temp"></a>
       
       <a target="_blank" href="Resources/assets/images/Fig2.png">
-      <img src="Resources/assets/images/Fig2.png" style="float: right; width: 45%; margin-right: 2%; margin-left: 3%; margin-bottom: 0.5em;"></a>
+      <img src="Resources/assets/images/Fig2.png" style="float: right; width: 45%; margin-right: 2%; margin-left: 3%; margin-bottom: 0.5em;" alt="Humidity"></a>
 
       <a target="_blank" href="Resources/assets/images/Fig3.png">
-      <img src="Resources/assets/images/Fig3.png" style="float: left; width: 45%; margin-right: 2%; margin-left: 3%; margin-bottom: 0.5em;"></a>
+      <img src="Resources/assets/images/Fig3.png" style="float: left; width: 45%; margin-right: 2%; margin-left: 3%; margin-bottom: 0.5em;" alt="Cloudiness"></a>
 
       <a target="_blank" href="Resources/assets/images/Fig4.png">
-      <img src="Resources/assets/images/Fig4.png" style="float: right; width: 45%; margin-right: 2%; margin-left: 3%; margin-bottom: 0.5em;"></a>
+      <img src="Resources/assets/images/Fig4.png" style="float: right; width: 45%; margin-right: 2%; margin-left: 3%; margin-bottom: 0.5em;" alt="Wind Speed"></a>
       <p style="clear: both;">
 
     </figure>
