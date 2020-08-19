@@ -18,21 +18,11 @@ h3 {
     margin: 15px;
     color: teal;
   }
-  
-
-
-    /* padding: 0;
-    margin: 0;
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #eee;
-    text-align: center;
-    font-size: 24px;
-    color: #d21034; */
-
-  
+    
+  .navbar-custom {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+  }
 
  /*
  * Fixed Position: Anchors element to the browser
@@ -58,7 +48,7 @@ h3 {
     left: 8%;
   }
   
-  /* vizualizations box on index page */
+  /* visualizations box on landing page */
   .box-2 {
     width: 500px;
     height: 430px;
@@ -66,7 +56,7 @@ h3 {
     right: 8%;
   }
 
-  /* boxes on visulization pages */
+  /* boxes on visualizations pages */
   .box-3 {
     width: 650px;
     height: 545px;
@@ -74,7 +64,7 @@ h3 {
     left: 8%;
   }
   
-  /* vizualizations box on visulization pages */
+  /* visualizations box on visualizations pages */
   .box-4 {
     width: 500px;
     height: 430px;
@@ -101,7 +91,10 @@ h3 {
     width: 100%;
   }
 
-}
+
+  
+  
+
 
 /* Medium Devices, Desktops */
 @media (max-width : 992px) {
@@ -121,6 +114,9 @@ h3 {
     display: none;
   }
 
+  .navbar-custom {
+    background-color: teal;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -139,6 +135,10 @@ h3 {
 
   .box-4 {
     display: none;
+  }
+
+  .navbar-custom {
+    background-color: teal;
   }
 
 }
@@ -160,6 +160,10 @@ h3 {
 
   .box-4 {
     width: 80%;
+  }
+  
+  .navbar-custom {
+    background-color: teal;
   }
 
 }
