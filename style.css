@@ -7,8 +7,6 @@ body {
   background: #efeee7;
 }
 
-
-
 p {
     margin: 20px;
   }
@@ -23,6 +21,11 @@ h3 {
     background-color: #F8F8F8;
     border-color: #E7E7E7;
   }
+
+.col-md-3 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
  /*
  * Fixed Position: Anchors element to the browser
@@ -72,6 +75,14 @@ h3 {
     right: 8%;
   }
 
+  /* comparisons page */
+  .box-5 {
+    width: 1420px;
+    height: 560px;
+    top: 16%;
+    right: 4%;
+  }
+
 
   /* Large Devices, Wide Screens */
 @media (max-width: 1200px) {
@@ -91,7 +102,9 @@ h3 {
     width: 100%;
   }
 
-
+  .box-5 {
+    width: 100%;
+  }
   
   
 
@@ -112,6 +125,10 @@ h3 {
 
   .box-4 {
     display: none;
+  }
+
+  .box-5 {
+    width: 80%;
   }
 
   .navbar-custom {
@@ -135,6 +152,10 @@ h3 {
 
   .box-4 {
     display: none;
+  }
+
+  .box-5 {
+    width: 80%;
   }
 
   .navbar-custom {
@@ -161,7 +182,11 @@ h3 {
   .box-4 {
     width: 80%;
   }
-  
+
+  .box-5 {
+    width: 80%;
+  }
+
   .navbar-custom {
     background-color: teal;
   }
