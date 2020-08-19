@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Latitude</title>
   <!-- Comment out each stylesheet to get the one you'd like to see -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -19,8 +19,9 @@
 <body>
 
 <!-- landing page -->
-
+<!-- header -->
 <!-- nav bar -->
+<header>
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <a class="navbar-brand" href="https://kirstiemccown.github.io/Web-Design-Challenge/"><h2>Latitude</h2></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +29,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Plots
@@ -55,12 +56,16 @@
     </ul>
   </div>
 </nav>
+</header>
 
+<!-- main page info -->
+<main>
+  
 <!-- first box with summary data and clickable visualizations -->
   <div class="box-set">
     <figure class="box box-1"><h3>Summary: Latitude vs. X</h3><hr>
           <a target="_blank" href="Resources/assets/images/Fig1.png">
-        <img class="TextWrap" src="Resources/assets/images/Fig1.png" float="left" alt="Max Temp" width="250">
+        <img class="TextWrap" src="Resources/assets/images/Fig1.png" alt="Max Temp" width="250">
       </a>
     <p>The purpose of this project was to analyse how weather changes as you get closer to the equator.
       To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset 
@@ -76,23 +81,24 @@
 
     <!-- second box with clickable visualizations -->
     <figure class="box box-2"><h3>Visualizations</h3><hr>
-      <a target="_blank" href="Resources/assets/images/Fig1.png">
+      <a target="_blank" href="maxtemp.html">
       <img src="Resources/assets/images/Fig1.png" style="float: left; width: 45%; margin-right: 2%; margin-left: 3%; margin-bottom: 0.5em;" alt="Max Temp"></a>
       
-      <a target="_blank" href="Resources/assets/images/Fig2.png">
+      <a target="_blank" href="humidity.html">
       <img src="Resources/assets/images/Fig2.png" style="float: right; width: 45%; margin-right: 2%; margin-left: 3%; margin-bottom: 0.5em;" alt="Humidity"></a>
 
-      <a target="_blank" href="Resources/assets/images/Fig3.png">
-      <img src="Resources/assets/images/Fig3.png" style="float: left; width: 45%; margin-right: 2%; margin-left: 3%; margin-bottom: 0.5em;" alt="Cloudiness"></a>
+      <a target="_blank" href="cloudiness.html">
+      <img src="Resources/assets/images/Fig3.png" style="float: right; width: 45%; margin-right: 2%; margin-left: 3%; margin-bottom: 0.5em;" alt="Wind Speed"></a>  
 
-      <a target="_blank" href="Resources/assets/images/Fig4.png">
-      <img src="Resources/assets/images/Fig4.png" style="float: right; width: 45%; margin-right: 2%; margin-left: 3%; margin-bottom: 0.5em;" alt="Wind Speed"></a>
+      <a target="_blank" href="windspeed.html">
+      <img src="Resources/assets/images/Fig4.png" style="float: left; width: 45%; margin-right: 2%; margin-left: 3%; margin-bottom: 0.5em;" alt="Cloudiness"></a>
+
       <p style="clear: both;">
 
     </figure>
     
   </div>
-
+</main>
 
   <!-- scripts for bootstrap to run correctly -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

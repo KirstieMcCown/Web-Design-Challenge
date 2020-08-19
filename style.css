@@ -3,23 +3,23 @@
  */
 
 /* Styling for HTML elements */
-
 body {
-    background: #efeee7;
-    overflow: auto;
-  }
+  background: #efeee7;
+}
 
-  h3 {
-    /* padding: 20px; */
+
+
+p {
     margin: 20px;
-    text-align: centre;
-    color: teal;
-  }
-
-  p {
-    margin: 30px;
   }
   
+
+h3 {
+    margin: 15px;
+    color: teal;
+  }
+  
+
 
     /* padding: 0;
     margin: 0;
@@ -54,26 +54,116 @@ body {
   .box-1 {
     width: 650px;
     height: 430px;
-    top: 25%;
+    top: 23%;
     left: 8%;
   }
   
-  /* vizualizations box on all */
+  /* vizualizations box on index page */
   .box-2 {
     width: 500px;
     height: 430px;
-    top: 25%;
+    top: 23%;
     right: 8%;
   }
 
   /* boxes on max temp page */
   .box-3 {
     width: 650px;
-    height: 600px;
-    top: 25%;
+    height: 525px;
+    top: 23%;
     left: 8%;
   }
   
+  /* vizualizations box on max temp page */
+  .box-4 {
+    width: 500px;
+    height: 430px;
+    top: 23%;
+    right: 8%;
+  }
 
-  
 
+  /* Large Devices, Wide Screens */
+@media (max-width: 1200px) {
+  .box-1 {
+    width: 100%;
+  }
+
+  .box-2 {
+    width: 100%;
+  }
+
+  .box-3 {
+    width: 100%;
+  }
+
+  .box-4 {
+    width: 100%;
+  }
+
+}
+
+/* Medium Devices, Desktops */
+@media (max-width : 992px) {
+  .box-1 {
+    width: 80%;
+  }
+
+  .box-2 {
+    display: none;
+  }
+
+  .box-3 {
+    width: 80%;
+  }
+
+  .box-4 {
+    display: none;
+  }
+
+}
+
+/* Small Devices, Tablets */
+@media (max-width: 768px) {
+  .box-1 {
+    width: 80%;
+  }
+
+  .box-2 {
+    display: none;
+  }
+
+  .box-3 {
+    width: 80%;
+  }
+
+  .box-4 {
+    display: none;
+  }
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media (max-width: 480px) {
+  .box-1 {
+    width: 80%;
+  }
+
+  .box-2 {
+    display: none;
+  }
+
+  .box-3 {
+    display: none;
+  }
+
+  .box-4 {
+    width: 80%;
+  }
+
+}
+
+
+/* Image Borders */
+#border { border: 1px teal solid; }
