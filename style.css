@@ -66,15 +66,15 @@ h3 {
     right: 8%;
   }
 
-  /* boxes on max temp page */
+  /* boxes on visulization pages */
   .box-3 {
     width: 650px;
-    height: 525px;
+    height: 545px;
     top: 23%;
     left: 8%;
   }
   
-  /* vizualizations box on max temp page */
+  /* vizualizations box on visulization pages */
   .box-4 {
     width: 500px;
     height: 430px;
