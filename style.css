@@ -32,8 +32,13 @@ h3 {
   padding-right: 150px;
 }
 
+/* Image Borders */
+#border { 
+  border: 1px teal solid;
+}
+
  /*
- * Fixed Position: Anchors element to the browser
+ * Styling for boxes
  */
 
 .box-set {
@@ -198,7 +203,3 @@ h3 {
 
 }
 
-/* Image Borders */
-#border { 
-  border: 1px teal solid;
-}
